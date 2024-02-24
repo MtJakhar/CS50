@@ -42,6 +42,8 @@ C lexicon
 
 header file- a file that ends in .h, gives you access to the code.
 
+stdio- means standard input and output of keyboard.
+
 library- code that someone else wrote, that you can use.
 
 Manual Pages- aka documentation
