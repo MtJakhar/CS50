@@ -1,0 +1,131 @@
+Lecture One.
+
+Source code-code that humans write like C, javascript..
+Machine code- binary, computer commands
+Compiler- program which translates one language to another ex source to machine
+Visual studio code is a Compiler
+
+In Terminal if you do:
+code- is a vscode cmd
+
+code (filename.language)- you create a new file in your directory with those parameters
+
+make (filename)- converts source code to machine code, so that it is executable in the terminal.
+
+./(filename)- runs file or directory
+
+Escape sequence- a way to tell the computer that a certain character has a special meaning, like a quotation mark or a new line, so it knows how to handle it correctly within the code.
+
+\" – double quote
+\\ – single backslash
+\a – bell/alert
+\b – backspace
+\r – carriage return
+\n – newline
+\s – space
+\t – tab
+
+Functions- are algorithms or step by step instructions for solving problems
+
+return value- result of functions
+
+arguments,parameters- are inputs to functions
+
+pure functions have no side effects
+
+side effects- change that is caused by a function beside getting the result
+
+semicolon- every command must end in semicolon, like period for sentence
+
+C lexicon
+#include <filename>- tells you to include this file in the code. like react import where you use function and data in those files, in the current file you are working on.
+
+header file- a file that ends in .h, gives you access to the code.
+
+library- code that someone else wrote, that you can use.
+
+Manual Pages- aka documentation
+
+Variables
+hello.c is used in examples
+
+variable- a thing which stores a value.
+data types- in c, we must declare the type of the variable. such as int, bool, char, string, etc...
+
+%s- placeholder for format code. tells printf to prepare to receive a string.
+
+format code- %c, %f, %i, %li, %s. %s is used for string variables, %i is used for int variables. More in Docs.
+
+incrementing, decrementing
+int counter = 0;
+
+to increment by one
+counter = counter + 1; || counter += 1; || counter++;
+
+to decrement by one
+counter = counter - 1; || counter -= 1; || counter--;
+
+Conditionals
+
+in order to do conditionals you must use if/else/else_if , statements.
+
+ex:
+if(x > y){
+"do something"
+} else if{
+"do something else"
+} else {
+"otherwise do this"
+}
+
+flow charts- area way by which you can examine how a program functions. used to examine efficiency of our code
+
+Loops
+
+For Loop:
+
+A for loop is used when you know exactly how many times you want to repeat a block of code.
+
+It has three parts: initialization, condition, and increment/decrement.
+
+Syntax:
+
+for (initialization; condition; increment/decrement) {
+// code to be repeated
+}
+
+While Loop:
+
+A while loop is used when you want to repeat a block of code as long as a condition is true.
+
+It checks the condition before executing the code block, which means the code may not run at all if the condition is false initially.
+Syntax:
+
+while (condition) {
+// code to be repeated
+}
+
+creating funtions
+
+void meow(void)
+{
+printf("meow\n");
+}
+
+The initial void means that the function does not return any values. The (void) means that no values are being provided to the function
+
+look at meow.c for more on function ex.
+
+Operators and Abstraction
+
+Operators- mathematical operations
+
+-   for addition
+
+*   for subtraction
+
+-   for multiplication
+    / for division
+    % for remainder/modelo
+
+Abstraction/"Abstract away"- simplifying our code such that it deals with smaller and smaller problems, aka refactor
