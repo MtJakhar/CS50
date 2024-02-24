@@ -129,3 +129,35 @@ Operators- mathematical operations
     % for remainder/modelo
 
 Abstraction/"Abstract away"- simplifying our code such that it deals with smaller and smaller problems, aka refactor
+
+look at calculator c for more examples of operators and use of abstraction
+
+Linux and the Command Line
+
+Linux- operating system that is accessible via the command line in the terminal window in VS Code.
+
+Some common command-line arguments we may use include:
+cd, for changing our current directory (folder)
+cp, for copying files and directories
+ls, for listing files in a directory
+mkdir, for making a directory
+mv, for moving (renaming) files and directories
+rm, for removing (deleting) files
+rmdir, for removing (deleting) directories
+
+Types
+
+Types refer to the possible data that can be stored within a variable. For example, a char is designed to accommodate a single character like a or 2.
+
+Types are very important because each type has specific limits.
+For example, because of the limits in memory, the highest value of an int can be 4294967295. If you attempt to count an int higher, integer overflow will result where an incorrect value will be stored in this variable.
+
+some types in C
+
+bool, a Boolean expression of either true or false
+char, a single character like a or 2
+double, a floating-point value with more digits than a float
+float, a floating-point value, or real number with a decimal value
+int, integers up to a certain size, or number of bits
+long, integers with more bits, so they can count higher than an int
+string, a string of characters
