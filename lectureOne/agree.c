@@ -5,6 +5,7 @@ int main(void) {
   // Prompt user to agree
  char c = get_char("Do you agree? ");
   // check whether agreed
+  // in c use single quote on char, and double quotes on strings.
   if(c == 'Y' || c == 'y') {
     printf("Agreed.\n");
   } else if (c == 'N' || c == 'n') {
