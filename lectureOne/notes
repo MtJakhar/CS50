@@ -163,3 +163,6 @@ float, a floating-point value, or real number with a decimal value
 int, integers up to a certain size, or number of bits
 long, integers with more bits, so they can count higher than an int
 string, a string of characters
+
+extra
+floating point imprecision-can't represent certain decimal numbers exactly in binary, causing tiny errors in calculations. This is caused usually by memory limitation of the computers RAM
