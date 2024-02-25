@@ -1,0 +1,50 @@
+Lecture 2
+
+Compiling
+
+Encryption is the hiding plain text with a cipher.
+Decrypting is returning text to readable form.
+
+compiler turns machine code to source code, and visa versa
+
+vscode uses a compiler called clang or c language
+
+Compiling in C involves major steps
+
+First, preprocessing is where the header files in your code are copied and pasted into your file. During this step, the code from cs50.h is copied into your program.
+
+Second, compiling is where your program is converted into assembly code.
+
+Third, assembling involves the compiler converting your assembly code into machine code.
+
+Finally, during the linking step, code from your included libraries are also converted into machine code and combined with your code. The final executable file is then outputted.
+
+Debugging
+
+mistakes in coding
+
+debugger is a tool that helps programmers track code.
+
+Arrays
+
+Each data type requires a certain amount of system resources:
+bool 1 byte
+int 4 bytes
+long 8 bytes
+float 4 bytes
+double 8 bytes
+char 1 byte
+string ? bytes
+
+Strings
+String - an array characters
+
+Command-Line Arguments
+
+Command-line arguments - arguments that are passed to your program at the command line.
+
+Exit status
+
+When a program ends, a special exit code is provided to the computer
+
+When a program exits without error, a status code of 0 is provided the computer. Often, when an error occurs that results in the program ending, a status of 1 is provided by the computer.
