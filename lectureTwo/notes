@@ -1,5 +1,12 @@
 Lecture 2
 
+4 steps of compling
+
+preprocessing-reading headers and adding it to current file
+compiling-source code to assembly code
+assembly- assembly code to machine code
+linking- merges machine code which is executed
+
 Compiling
 
 Encryption is the hiding plain text with a cipher.
