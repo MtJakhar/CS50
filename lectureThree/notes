@@ -5,3 +5,73 @@ Algorithm- steps taken to solve a problem
 Linear Search
 
 Linear search is a simple algorithm that sequentially checks each element of a list or array until a match is found or the entire list is traversed, with a time complexity of O(n).
+
+Binary Search
+
+Binary search is a fast search algorithm that works on sorted arrays by repeatedly dividing the search interval in half until the target element is found or the search interval is empty, with a time complexity of O(log n).
+
+Running Time
+
+Running time of an algorithm is the amount of time it takes to execute, typically denoted using BigO notation to describe its growth rate relative to the input size
+
+Data Structures
+
+In C we can create our own datatypes via struct.
+for to phonebook.c for example
+
+Sorting
+
+Sorting-the act of taking an unsorted list of values and transforming this list into a sorted one
+
+binary search can be used on sorted lists
+
+many different sorting algorithms.
+
+Selection sort is an example of a sorting algorithm.
+
+the algorithm for selection sort is:
+For i from 0 to n–1
+Find smallest number between numbers[i] and numbers[n-1]
+Swap smallest number with numbers[i]
+
+Bubble Sort
+
+Bubble sort is another sorting algorithm that works by repeatedly swapping elements to "bubble" larger elements to the end.
+the algorithm for bubble is
+
+Repeat n-1 times
+For i from 0 to n-2
+If numbers[i] and numbers[I+1] out of order
+Swap them
+If no Swaps
+Quit
+
+Recursion
+
+Recursion is a concept where a function calls itself.
+
+pseudocode example:
+
+1 Pick up phone book
+2 Open to middle of phone book
+3 Look at page
+4 If person is on page
+5 Call person
+6 Else if person is earlier in book
+7 Search left half of book
+9 Else if person is later in book
+10 Search right half of book
+12 Else
+13 Quit
+
+Merge Sort
+
+Merge sort is a sorting algorithm which sorts using recursion
+
+the pseudocode is as follows
+If only one number
+Quit
+Else
+Sort left half of number
+Sort right half of number
+Merge sorted halves
