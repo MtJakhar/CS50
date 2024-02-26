@@ -1,0 +1,7 @@
+Lecture 3 Algorithms
+
+Algorithm- steps taken to solve a problem
+
+Linear Search
+
+Linear search is a simple algorithm that sequentially checks each element of a list or array until a match is found or the entire list is traversed, with a time complexity of O(n).
