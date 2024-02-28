@@ -55,3 +55,47 @@ A string of characters is simply an array of characters identified by it first b
 with integers you can use == to compare them, but using == with strings will compare their memory locations. so we must use strcmp, meaning "string compare", to comapte both strings.
 
 Copying
+
+look at copy.c for code showing how copying works in C.
+
+Malloc and Valgrind
+
+Valgrind- checks to see if you free all the memory you allocated
+
+Garbage Values
+
+When you ask the compiler for a block of memory, there is no guarantee that this memory will be empty.
+
+It’s very possible that this memory that you allocated was previously utilized by the computer. Accordingly, you may see junk or garbage values.
+
+Swap
+
+In the real world, a common need in programming is to swap two values. Naturally, it’s hard to swap two variables without a temporary holding space.
+
+Notice that main and swap have two separate frames or areas of memory. Therefore, we cannot simply pass the values from one function to another to change them.
+
+You have to use pointers in C to swap them.
+
+Overflow
+
+A heap overflow is when you overflow the heap, touching areas of memory you are not supposed to.
+
+a stack overflow is when too many functions are called, overflowing the amount of memory available.
+
+Both of these are considered buffer overflows.
+
+scanf
+
+scanf is a function that can get user input.
+
+int main(void)
+{
+int x;
+printf("x: ");
+scanf("%i", &x);
+printf("x: %i\n", x);
+}
+
+File I/O
+
+read and manipulate files
