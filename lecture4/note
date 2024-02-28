@@ -1,5 +1,9 @@
 Lecture 4 Memory
 
+& - address operator, find where memory is
+
+-   -   dereference operator, takes you to memory
+
 Pixel Art
 
 Pixels are squares, dots, of color that are arranged on an up-down, left-right grid.
